@@ -1,17 +1,40 @@
 p {
-color: black
+  color: black;
+}
+
+@media (max-width: 768px) {
+  img {
+    width: 130px;
+    height: 20px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+  }
+
+  .disp {
+    display: flex;
+    padding-left: 150px;
+  }
+
+  nav {
+    background-color: #F2F2F2;
+    border: solid #F2F2F2;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  button {
+    width: 230px;
+    height: 55px;
+    border-radius: 25px;
+  
+  }
+  span {
+
+    color:#9356DC #FF79DA #99E2D0 ;
+    
+    }
+
+  
 }
 
 /*# sourceMappingURL=style.css.map */
-
-@media (max-width: 768px) {
-    
-img{
-width:130px;
-height:20px;
-margin-left:150px;
-margin-bottom:20px;
-
-}
-
-}

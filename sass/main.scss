@@ -1,20 +1,49 @@
 $black:black;
-p{
 
-color:black ;
+p {
 
-}
-
-.projimg__image {
-
-width: 20px;
-height:70px;
+    color: black;
 
 }
 
-.nav {
+@media (max-width: 768px) {
 
-   
+    img {
+        width: 130px;
+        height: 20px;
+        margin-left: 150px;
+        margin-bottom: 20px;
+
+    }
+
+    .disp {
+        display: flex;
+        padding-left: 150px;
+
+
+    }
+
+    nav {
+        background-color:#F2F2F2;
+        border:solid #F2F2F2;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    button {
+        width: 230px;
+        height: 55px;
+        border-radius: 25px;
+        
+        
+ 
+ }
+ 
+span {
+
+color:#9356DC #FF79DA #99E2D0 ;
+
 }
 
 
+}
